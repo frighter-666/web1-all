@@ -1,0 +1,87 @@
+/*
+* @Author: 宋明睿
+* @Date:   2020-05-26 10:29:18
+* @Last Modified by:   宋明睿
+* @Last Modified time: 2020-05-26 16:05:43
+*/
+<style>
+.biggest{
+	width:1920px;
+	height:2466px;
+}		
+.top{
+	width:1920px;
+	height: 101px;
+	margin: 0 auto;
+	vertical-align:middle;
+	}
+.top img{
+	padding-left: 369px;
+	padding-top: 33px;
+	width: 170px;
+	height: 39px;
+}
+.shouye{
+	float: left;
+	padding-top: 42px;
+	/* margin-left:80px;  */
+	/* width:121px; */
+	/* height:9px; */	
+	}
+.showye1{
+
+}
+.shouye li{
+	float: left ;
+	display: inline-block;
+
+}
+.spec{
+	padding: 0px 40px;
+}
+.shouye li a{
+	float: left;
+	display: inline-block;
+	/* padding: 0px 40px; */
+	font-size:18px;
+	
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	text-align: center;
+	border-bottom: 1px solid white;
+	}
+.shouye li a:hover{
+	border-bottom: 1px solid rgba(0,164,255,1);
+	border-bottom-width: 27px: 
+}
+.find{
+	float: right;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 31px;
+	}
+.find .search{
+	display: inline-block;
+/* 	width: 100px;
+ */	height: 40px;
+	border: 2px solid rgba(0,164,255,1);
+	/* margin-left: 190px; */
+		}
+.find .submit{
+	display: inline-block;
+	border: 2px solid rgba(0,164,255,1);
+	width: 54px;
+	height: 40px;
+	background: rgba(0,164,255,1) url(../images/搜索.png) no-repeat center center;
+    cursor: pointer;
+}	
+.find .right{
+	display: inline-block;
+	padding-right: 372px;
+	width: 60px;
+	height: 12px;
+	font-size: 14px;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}
+</style>

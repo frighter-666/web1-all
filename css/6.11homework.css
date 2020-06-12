@@ -1,0 +1,530 @@
+/*
+* @Author: 宋明睿
+* @Date:   2020-06-06 16:01:06
+* @Last Modified by:   宋明睿
+* @Last Modified time: 2020-06-12 10:40:16
+*/
+/* .h1{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 48px;
+	font-family: "宋体"
+	
+} */
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+/* logo picture */
+.logo{
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-top: 10px;
+}
+.logo-word{
+	float: left;
+	padding-left: 30px;
+	height: 50px;
+	padding: 10px;
+	font-family: "宋体"
+}
+.logo-word .first{
+	font-size: 28px;
+	font-weight: 400;
+	margin: 0 auto;
+}
+.logo-word .second{
+	font-size: 14px;
+	font-weight: 300;
+	color: gray;
+	text-align: center;
+	margin-top:8px;
+}
+/* 登录注册 */
+.enter li{
+	float: left;
+	margin: 30px 5px 20px 5px;
+	font-size: 16px;
+
+}
+.enter li a{
+	color: black;
+}
+
+.phone{
+	padding-left: 17px;
+    background: url(../images/iphone.png) no-repeat left center;
+}
+.weixin{
+	padding-left: 24px;
+    background: url(../images/weixin.png) no-repeat left center;
+}
+/* 下一层列表 */
+.head-search,.enter{
+	float: right;
+}
+.head-search input{
+	float: left;
+}
+.search{
+	padding: 10px;
+	border: 1px solid rgba(0,164,255,1);
+	width: 170px;
+	margin-top: 5px;
+}
+.submit{
+	vertical-align: bottom;
+	float: left;
+	width:50px;
+	height:38px;
+	background:rgba(0,164,255,1) url(../images/搜索.png) no-repeat center center;
+    cursor: pointer;
+    border: 1px solid rgba(0,164,255,1);
+    margin-top: 5px;
+}
+
+.head-bottom{
+	background: #1787e0;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 10px;
+}
+.head-bottom .container{
+	height: 50px;
+	line-height: 50px;
+	padding: 5px 0;
+}
+.head-list{
+	float: left;
+	/* padding: 10px 150px; */
+}
+.head-list li{
+	float: left;
+	padding: 0px 35px;
+	border-right: 1px solid #459ce3;
+}
+.head-list li a{
+	color: white;
+}
+.head-list li a:hover{
+	color: yellow;
+}
+.head-list .last{
+	border: none;
+}
+/* banner图 */
+.banner{
+	background: #dcdeed url(../images/下载.jfif) no-repeat center center;
+	width: 100%;
+	height:400px;
+	background-size: 1200px 400px;
+}
+/* 资讯 */
+.zixun-head h2{
+	background: white url(../images/rouhe.jpg) no-repeat center center;
+	background-size: 1200px 40px;
+	font-size: 36px;
+	font-family: "fangsong";
+	color: black;
+	border-bottom: 2px solid green;
+}
+.zixun-left{
+	float: left;
+	width: 320px;
+}
+.zixun-left h3{
+	float: left;
+	font-size: 26px;
+	font-family: "宋体";
+	padding: 20px 0 10px 0;
+}
+.gonggao{
+	position: relative;
+}
+.gonggao img{
+	width: 320px;
+	height: 150px;
+}
+.gonggao .liucheng{
+	width: 330px;
+	height: 50px;
+	position: absolute;
+	top: 180px;
+	left: 3px;
+
+}
+.gonggao .liucheng li{
+	background:white;
+	float: left;
+	font-size: 14px;
+	padding: 5px 13px;
+}
+.liucheng li a{
+	color:black;
+} 
+.zixun{
+	background: #f3f5f7;
+}
+.zixun-left .more{
+	float: right;
+	font-size: 16px;
+	color: gray;
+	padding: 28px 0 2px 0;
+}
+.zixun-left .more:hover{
+	color: green;
+	border-bottom: 1px solid gray;
+}
+.zixun-left .college>li{
+	font-size: 14px;
+    line-height: 32px;
+    padding: 5px 0;
+}
+.zixun-left .college>li a{
+	color: #333;
+}
+.zixun-left ul>li a:hover{
+	color: green;
+}
+
+.zixun-middle{
+	width: 320px;
+	float: left;
+	padding:0 120px;
+}
+.zixun-middle h3{
+	font-size: 26px;
+	font-family: "宋体";
+	padding: 20px 0 10px 0;
+}
+.zhengti{
+	padding: 5px 0px 15px 0;
+}
+.zixun-img{
+	width: 150px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    vertical-align: middle;
+}
+.dongtai li{
+	float: left;
+	font-size: 14px;
+    line-height: 32px;
+    padding: 5px 0;
+}
+.dongtai li a{
+	color: #333
+}
+.dongtai li a:hover{
+	color: green;
+}
+
+.img-right{
+	font-size: 14px;
+	color: #afafaf;
+}
+
+.zixun-right{
+	float: right;
+	width: 320px;
+}
+.zixun-right h3{
+	/*float: left;*/
+	font-size: 26px;
+	font-family: "宋体";
+	padding: 20px 0 10px 0;
+}
+
+/*body1*/
+.body1{
+	background: #f3f5f7;
+}
+.body1-left{
+	float: left;
+}
+.body1-head{
+	background: white url(../images/rouhe.jpg) no-repeat center center;
+	background-size: 1200px 40px;
+	font-size: 36px;
+	font-family: "fangsong";
+	color: black;
+	border-bottom: 2px solid green;
+	padding:10px 0;
+}
+.body1-left h1{
+	font-size: 24px;
+	font-family: "fangsong";
+	padding:10px 0;
+}
+.body1-left-1{
+	width:210px;
+	height: 540px;
+	border:1px solid gray;
+}
+.body1-left-1 h1{
+	line-height: 28px;
+    text-align: left;
+    font-size: 20px;
+    color: #7e5521;
+    border-bottom: 1px solid gray;
+    padding:5px 0;
+}
+.body1-left-1 li{	
+	padding:5px 0;
+}
+.body1-left-1 li p{
+	font-size: 15px;
+	color: #333;
+/*     background: #fff;
+ */    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+.body1-left-1 li a{
+	font-size: 17px;
+	color: red;
+}
+.body1-left-1 li a:hover{
+	color: green;
+}
+.body1-left-1 .submit{
+	width:80px;
+	height: 36px;
+	background: gray;
+	color: white;
+	margin:0 12px;
+}
+
+.body1-left-2{
+	margin-top: 20px;
+	width:210px;
+	height: 296px;
+	border:1px solid gray;
+}
+.body1-left-2 h1{
+	border-bottom: 1px solid gray;
+}
+.body1-left-2 li{
+	font-size: 15px;
+	padding:9px 0;
+}
+.body1-left-2 li a{
+	color: black;
+}
+.body1-left-2 li a:hover{
+	color: green;
+}
+
+.body1-mid .liucheng{
+	font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.body1-mid ul{
+	height: 38px;
+	line-height: 38px;
+	padding:5px 0;
+	background: #7e5521;
+}
+.body1-mid li{
+	float: left;
+	font-size: 18px;
+    font-weight: bold;
+}
+.body1-mid li p{
+	color: white;
+}
+.body1-mid li a{
+	color: white;
+}
+.body1-mid{
+	display: inline-block;
+	padding:5px 20px;
+	margin:5px 29px;
+	border:1px solid gray;
+	height: 890px;
+	text-align: center;
+}
+
+.body1-right{
+	border:1px solid gray;
+	width: 210px;
+	height: 900px;
+	float: right;
+	margin-top: 5px;
+
+}
+.gong{
+	font-size: 24px;
+	font-family: "fangsong";
+	border-bottom:1px solid black;
+	padding:5px 0;
+}
+.body1-right li{
+	padding:10px 0;
+	font-size: 18px;
+	font-family: "fangsong"
+}
+.body1-right a{
+	color: green;
+}
+.body1-right a:hover{
+	color: orange;
+}
+
+/* banner2 */
+.banner2{
+	background: #dcdeed url(../images/ship.jpg) no-repeat center center;
+	width:100%;
+	height: 400px;
+	background-size: 1200px 400px;
+}
+
+/* body2 */
+.body2{
+		background: #f3f5f7;
+
+}
+.body2-head{
+	background: white url(../images/rouhe.jpg) no-repeat center center;
+	background-size: 1200px 40px;
+	font-size: 36px;
+	font-family: "fangsong";
+	color: black;
+	border-bottom: 2px solid green;
+	padding:10px 0;
+}
+.body2-1{
+	float: left;
+	width:180px;
+	border:1px solid blue;
+}
+.body2-1 p{
+	border-bottom: 1px solid #1787e0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.body2-1 li{
+	font-size: 16px;
+	padding:5px 0;
+	font-family: "fangsong"
+}
+.body2-1 li a{
+	color: black;
+}
+.body2-1 li a:hover{
+	color: red;
+}
+
+.body2-2-left{
+	width: 200px;
+	border:1px solid gray;
+	float: left;
+}
+.body2-2-left p{
+	border-bottom: 1px solid gray;
+	font-size: 24px;
+	font-family: "宋体";
+	border-top: 1px solid gray;
+	font-weight: 300;
+}
+.body2-2-left .kecheng li{
+	display: inline-block;
+	font-size: 14px;
+	padding:5px 2px;
+}
+.body2-2-left .kecheng li a{
+	color: black;
+}
+.body2-2-left .kecheng li a:hover{
+	color: red;
+}
+
+.body2-2-left .search{
+	border:1px solid red;
+}
+.body2-2-left form{
+	text-align: center;
+}
+.body2-2-left .submit{
+	width:190px;
+	background: red;
+	color: white;
+	text-align: center;
+	margin:5px 5px;
+}
+
+.body2-2-left .ziliao li{
+	font-size: 16px;
+	padding:20px 0;
+}
+.body2-2-left .ziliao li a{
+	color: black;
+}
+
+.body2-img>li{
+/* 	width: 600px;
+ */	float: left;
+	position: relative;	
+	margin:10px 20px;
+
+	width: 450px;
+	height: 290px;
+}
+
+.body2-img img{
+	width: 300px;
+	height: 250px;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+.body2-img .wenzi{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+}
+.body2-img-right{
+	padding: 20px 0 0 0;
+}
+.body2-img-right li{
+	padding:10px 0;
+	font-size: 18px;
+	font-family: "fangsong";
+	border-bottom: 1px solid gray;
+}
+.body2-img-right li a{
+	color: black;
+}
+.body2-img-right li a:hover{
+	color: red;
+}
+
+.all-bottom{
+	line-height: 30px;
+    background: #282828;
+    color: #ababab;
+    width: 100%;
+    height: 200px;
+    padding-top: 40px;
+    text-align: center;
+}
+.all-bottom a{
+	color: #ababab;
+	font-size: 16px;
+}
+.bottom-list1{
+	padding-left: 300px;
+}
+.bottom-list1 li{
+	float: left;
+	padding:5px 20px;
+}
+.bottom-list2 li{
+	padding:5px 8px;
+}
